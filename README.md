@@ -2,8 +2,6 @@
 
 > Конспекты, практические задания и решения по курсу [gnulinux.pro](https://gnulinux.pro)
 
-[![Progress](https://img.shields.io/badge/Progress-0%25-red)]()
-
 ## Структура
 
 | Глава | Тема | Практика |
