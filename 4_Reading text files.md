@@ -26,24 +26,9 @@ tail -n 5 /var/log/syslog
 
 **Ответ:** комбинацией `head` и `tail` или с помощью `sed`/`awk`
 
-### Способ 1: `head` + `tail`
+### `head` + `tail`
 ```bash
 head -n 30 /etc/passwd | tail -n 1
-```
-
-### Способ 2: `sed`
-```bash
-sed -n '30p' /etc/passwd
-```
-
-### Способ 3: `awk`
-```bash
-awk 'NR==30' /etc/passwd
-```
-
-### Способ 4: `head` + `tail` с `+`
-```bash
-head -n 30 /etc/passwd | tail -n +30
 ```
 
 ---
