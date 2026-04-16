@@ -200,7 +200,7 @@ ls -R /home/sancher/testdir2/ /tmp/testdir2/testdir22
 rm -rv ~/testdir1 testdir2/testdir22
 ```
 
-> Ключ `-v` (verbose) выводит подробности — полезно на стажировке, чтобы видеть, что именно удалилось.
+> Ключ `-v` (verbose) выводит подробности 
 
 ---
 
